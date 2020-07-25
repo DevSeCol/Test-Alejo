@@ -33,7 +33,7 @@ jobs:
     name: Setup, Build, Publish, and Deploy
     runs-on: ubuntu-latest
 
-        defaults:
+    defaults:
       run:
         shell: bash
         working-directory: ./src
