@@ -24,9 +24,9 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: us-west1-a
   GKE_CLUSTER: devsecol-cluster
-  IMAGE: Alejo-gke-test
+  IMAGE: alejo-gke-test
   REGISTRY_HOSTNAME: gcr.io
-  DEPLOYMENT_NAME: Alejo-gke-test
+  DEPLOYMENT_NAME: alejo-gke-test
 
 jobs:
   setup-build-publish-deploy:
